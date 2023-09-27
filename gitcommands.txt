@@ -1,0 +1,19 @@
+git pull - puxa tudo que tá na main
+git pull origin - faz merge local do que tá na main com teu codigo
+git status - mostra tudo que foi alterado na tua branch
+git branch - mostra a branch atual que voce ta trabalhando em verde + as branches que voce já acessou
+git add nome do arquivo - adiciona o arquivo para fila de commit 
+git add . - adiciona todos os arquivos alterados para a fila de commit
+git commit -m "sua mensagem aqui" - faz o commit do seu codigo com a mensagem que voce escreveu (essa mensagem deve descrever o seu trabalho atual)
+git push - empurra seu código da sua branch que está salvo localmente, para sua branch no git
+git checkout nome do arquivo - remove o arquivo da fila de commit
+git checkout nome da branch - entra na branch desejada (só funciona se a branch atual estiver "nothing to commit")
+
+para clonar: 
+git clone (link do <code>)
+git status
+git add .
+git status
+git commit -m "mensagem"
+git status
+git push
